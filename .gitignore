@@ -1,0 +1,8 @@
+exchange_dir/
+.ipynb_checkpoints/
+*.log
+*.synctex.gz
+*.aux
+.vscode/
+.RData
+.Rhistory

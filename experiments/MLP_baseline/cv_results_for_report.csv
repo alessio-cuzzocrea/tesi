@@ -1,0 +1,16 @@
+loss,activation,meantestAUPRC,meantestAVGPREC,meantestAUROC,meanfittime
+hinge,sigmoid,0.081,0.086,0.949,127.769
+hinge,tanh,0.033,0.036,0.936,131.086
+binary crossentropy,sigmoid,0.014,0.015,0.941,140.123
+binary crossentropy,tanh,0.01,0.01,0.946,131.847
+mean absolute error,sigmoid,0.005,0.005,0.918,139.703
+mean absolute error,tanh,0.004,0.004,0.922,130.315
+hinge,softmax,0.003,0.004,0.909,139.188
+binary crossentropy,softmax,0.002,0.002,0.439,226.635
+mean absolute error,softmax,0.0,0.0,0.235,218.275
+hinge,softplus,0.0,0.0,0.141,240.04
+hinge,relu,0.0,0.0,0.135,72.98
+binary crossentropy,softplus,0.0,0.0,0.092,242.649
+binary crossentropy,relu,0.0,0.0,0.09,75.863
+mean absolute error,relu,0.0,0.0,0.088,97.227
+mean absolute error,softplus,0.0,0.0,0.087,296.216

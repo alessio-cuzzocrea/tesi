@@ -1,0 +1,4 @@
+meantestAVGPREC,stdtestAVGPREC,meantrainAVGPREC,meantestAUROC,meantestAUPRC,parammodelalpha
+0.746,0.036,0.999,0.972,0.746,3.5
+0.746,0.037,0.999,0.974,0.745,3.0
+0.742,0.042,0.999,0.971,0.742,4.0
