@@ -1,6 +1,6 @@
 # MLP baseline
 
-Basically here we want to have a first glance to neural networks by using a very basic model, the list of packages is defined in `requirements.txt`. The model is defined by the following function:
+Basically here we want to have a first glance to neural networks by using a very basic model, the list of dependencies is defined in `requirements.txt`. The model is defined by the following function:
 
 
 
@@ -23,7 +23,7 @@ Basically here we want to have a first glance to neural networks by using a very
         return model
     model = KerasClassifier(build_fn = create_model, epochs = 10, batch_size=batch_size, verbose=1, shuffle=False)
 
-The experiment scripts in this file are:
+The experiment scripts in this folder are:
 
 * [grid_search_MLP_loss_and_activations]( https://github.com/alessio-cuzzocrea/tesi/blob/master/experiments/MLP_baseline/grid_search_MLP_loss_and_activations.ipynb)
 In this file there is the exhaustive search of each combination of the hyperparameters defined
