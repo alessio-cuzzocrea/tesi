@@ -1,5 +1,13 @@
 # Experiments
 Here we have 4 folders, each of these contains the scripts for a single experiment, which explore the capabilities of the Multilayer Perceptron (MLP) in verious settings. Note that all scripts are jupyter notebooks, so it is wise to open them with an appropriate editor.
+
+Generally speaking, in most folders under *experiments* there will be a *data* folder containing the data of the experiments. Also a *data_for_report* folder is present if necessary where all data is cleaned.
+
+Morover there are two main kind of noetbooks:
+* grid_search_*: those notebooks are those which the grid search is performed. 
+* check_results_*: here the grid search results are explored, cleaned and some plots are done.
+
+
 ### MLP_baseline
 To start, here is defined a baseline model. More information in the readme inside.
 <br/>
