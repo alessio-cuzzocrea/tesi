@@ -10,4 +10,4 @@ The relevant models are picked from the grid search involving Adam and dataset s
 * [The model that overfitted the most](https://github.com/alessio-cuzzocrea/tesi/blob/master/experiments/exploring_architecture_and_optimizers/models_histories/MLP_scaler_adam_100-80.ipynb): 2 layers with 100 and 80 neurons
 
 
-As usual, there is a notebook [check_histories](https://github.com/alessio-cuzzocrea/tesi/blob/master/experiments/exploring_architecture_and_optimizers/models_histories/check_histories.ipynb) that tries to summarize the models by some plotting
+As usual, there is a notebook [check_histories](https://github.com/alessio-cuzzocrea/tesi/blob/master/experiments/exploring_architecture_and_optimizers/models_histories/check_histories.ipynb) that summarizes the models by some plotting
