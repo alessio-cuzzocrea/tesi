@@ -6,3 +6,4 @@ exchange_dir/
 .vscode/
 .RData
 .Rhistory
+*.pyc
