@@ -1,6 +1,6 @@
 # Models history
 
-In this folderthe best model found in each grid search are trained over the whole training set and their performace is tracked. Within each script are some relevant plots.
+In this folderthe best model found in each grid search are trained over the whole training set and their performace is tracked. Within each script are some relevant plots like PR-ROC curve.
 
 * [adam_scaling_100_units_dropout-0.2_history](https://github.com/alessio-cuzzocrea/tesi/blob/master/experiments/MLP_dropout_feature_decomposition_balanced_generator/models_history/adam_scaling_100_units_dropout-0.2_history.ipynb): this the history for the best model found in [grid_search_adam_scaling_dropout_top_ten_train](https://github.com/alessio-cuzzocrea/tesi/blob/master/experiments/MLP_dropout_feature_decomposition_balanced_generator/grid_search_adam_scaling_dropout_top_ten_train.ipynb)
 
