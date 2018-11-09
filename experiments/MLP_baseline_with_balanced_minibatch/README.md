@@ -57,7 +57,3 @@ In this file we analyze the grid search results of the balanced minbatch generat
 ### MLP_baseline_balanced_mb_300_epochs_runs
 
 The best five models and the the most overfitting five found in the grid search are evaluate on a much longer run with some plotting.
-* [top_5_test_MLP_baseline_mb_gen_300_epochs_history](https://github.com/alessio-cuzzocrea/tesi/blob/master/experiments/MLP_baseline_with_balanced_minibatch/MLP_baseline_balanced_mb_300_epochs_runs/top_5_test_MLP_baseline_mb_gen_300_epochs_history.ipynb)
-
-* [top_5_train_MLP_baseline_mb_gen_300_epochs_history](https://github.com/alessio-cuzzocrea/tesi/blob/master/experiments/MLP_baseline_with_balanced_minibatch/MLP_baseline_balanced_mb_300_epochs_runs/top_5_train_MLP_baseline_mb_gen_300_epochs_history.ipynb)
-* [plots_for_MLP_baseline_mb_gen_with_300_epochs](https://github.com/alessio-cuzzocrea/tesi/blob/master/experiments/MLP_baseline_with_balanced_minibatch/MLP_baseline_balanced_mb_300_epochs_runs/plots_for_MLP_baseline_mb_gen_with_300_epochs.ipynb)
