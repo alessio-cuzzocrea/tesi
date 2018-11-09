@@ -8,3 +8,5 @@
 Here lies a simple kind of grid search, like the one defined by sklearn. The main difference is that here we reset the seed before a new cross validation begins.
 
 * [losses](https://github.com/alessio-cuzzocrea/tesi/blob/master/bioinformatics_helpers/bioinformatics_helpers/utils/losses.py): here are defined the losses used in this project that are not implemented from scratch in keras.
+
+* [helpers](https://github.com/alessio-cuzzocrea/tesi/blob/master/bioinformatics_helpers/bioinformatics_helpers/utils/helpers.py) some useful functions
