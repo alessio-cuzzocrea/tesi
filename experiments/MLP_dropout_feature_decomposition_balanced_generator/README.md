@@ -1,7 +1,8 @@
 # Dropout, feature decomposition and balanced generator
 
 In this module we will use the **ADAM** optimizer, which was found to be a good choice as the experiment in module `exploring_architectures_and_optimizers` suggests.
-In folder [balanced_experiments](https://github.com/alessio-cuzzocrea/tesi/tree/master/experiments/MLP_dropout_feature_decomposition_balanced_generator/balanced_experiments) are present the scripts regarding to balanced minibatch generator
+In folder [balanced_experiments](https://github.com/alessio-cuzzocrea/tesi/tree/master/experiments/MLP_dropout_feature_decomposition_balanced_generator/balanced_experiments) are present the scripts regarding the experiments to balanced minibatch generator, while folder 
+[models_history](https://github.com/alessio-cuzzocrea/tesi/tree/master/experiments/MLP_dropout_feature_decomposition_balanced_generator/models_history) contains the scripts to track the history of some relevant models.
 
 ## Grid search scripts
 * [grid_search_adam_scaling_dropout_top_ten_train](https://github.com/alessio-cuzzocrea/tesi/blob/master/experiments/MLP_dropout_feature_decomposition_balanced_generator/grid_search_adam_scaling_dropout_top_ten_train.ipynb): this  grid search applies various dropout rates to the top ten models by training score -- those who overfitted the most -- found in the experiment [exploring_architectures_and_optimizers](https://github.com/alessio-cuzzocrea/tesi/tree/master/experiments/exploring_architecture_and_optimizers)
