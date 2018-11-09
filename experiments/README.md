@@ -1,5 +1,5 @@
 # Experiments
-Here we have 4 folders, each of these contains the scripts for a single experiment, which explore the capabilities of the Multilayer Perceptron (MLP) in verious settings. Note that all scripts are jupyter notebooks, so it is wise to open them with an appropriate editor.
+Here we have 4 folders, each of these containing the scripts for a single experiment, which explore the capabilities of the Multilayer Perceptron (MLP) in verious settings. Note that all scripts are jupyter notebooks, so it is wise to open them with an appropriate editor.
 
 Generally speaking, in most folders under *experiments* there will be a *data* folder containing the data of the experiments. Also a *data_for_report* folder is present if necessary where all data is cleaned.
 
