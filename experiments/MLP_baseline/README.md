@@ -24,7 +24,6 @@ def create_model(loss='binary_crossentropy', activation='tanh'):
     return model
 model = KerasClassifier(build_fn = create_model, epochs = 10, batch_size=batch_size, verbose=1, shuffle=False)
 ```
-The experiment scripts in this folder are:
 ## Grid search
 In this experiment the fixed MLP parameters are:
 * hidden layers: 1
