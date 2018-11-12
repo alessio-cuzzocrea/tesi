@@ -25,7 +25,7 @@ model = CustomKerasClassifier(build_fn = create_model, generator=gen, verbose=1,
 
 
 ## Grid search 
-In this experiment the MLP has the following fixed paramters:
+In this experiment we drive two grid search each of which with a  MLP with the following fixed paramters:
 * hidden layers: 1
 * hiddene units: 300
 * output activation function: sigmoid
@@ -53,7 +53,7 @@ In these files we analyze the grid search results
 #### [check_results_of_grid_search_MLP_baseline_with_minibatch_balanced_generator](https://github.com/alessio-cuzzocrea/tesi/blob/master/experiments/MLP_baseline_with_balanced_minibatch/check_results_of_grid_search_MLP_baseline_with_minibatch_balanced_generator.ipynb)
 In this file we analyze the grid search results of the balanced minbatch generator
 #### [check_results_of_grid_search_MLP_baseline_with_minibatch_balanced_generator_seed_reset](https://github.com/alessio-cuzzocrea/tesi/blob/master/experiments/MLP_baseline_with_balanced_minibatch/check_results_of_grid_search_MLP_baseline_with_minibatch_balanced_generator_seed_reset.ipynb)
-
+In this file we analyze the grid search results of the balanced minbatch generator with seed reset
 ### MLP_baseline_balanced_mb_300_epochs_runs
 
 The best five models and the the most overfitting five found in the grid search are evaluate on a much longer run with some plotting.
