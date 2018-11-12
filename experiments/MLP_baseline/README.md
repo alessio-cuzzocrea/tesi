@@ -25,6 +25,8 @@ def create_model(loss='binary_crossentropy', activation='tanh'):
 model = KerasClassifier(build_fn = create_model, epochs = 10, batch_size=batch_size, verbose=1, shuffle=False)
 ```
 ## Grid search
+#### [grid_search_MLP_loss_and_activations]( https://github.com/alessio-cuzzocrea/tesi/blob/master/experiments/MLP_baseline/grid_search_MLP_loss_and_activations.ipynb)
+
 In this experiment the fixed MLP parameters are:
 * hidden layers: 1
 * hidden units: 300
@@ -33,8 +35,7 @@ In this experiment the fixed MLP parameters are:
 * n_epochs: 10
 * weights initializer: glorot uniform
 * output activation function: sigmoid
-#### [grid_search_MLP_loss_and_activations]( https://github.com/alessio-cuzzocrea/tesi/blob/master/experiments/MLP_baseline/grid_search_MLP_loss_and_activations.ipynb)
-In this file there is the exhaustive search of each combination of the following hyperparameters:
+While we exahustively search in the  following hyperparameter search space:
 ```python
 params = {
         'loss': ['binary_crossentropy', 'mean_absolute_error', hingesig],
