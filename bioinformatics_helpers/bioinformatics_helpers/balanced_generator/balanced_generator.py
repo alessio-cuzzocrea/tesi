@@ -5,7 +5,7 @@ from sklearn.base import clone
 
 
 def input_consistency_check(y_set, x_set, positive_sample_perc, np_ratio, negative_perc):
-    """ This functioncheck the consistency of the input
+    """ This functioncheck the consistency of the input of a balanced minibatch generator
     
     Arguments:
         y_set {np.array} -- the set of the labels
