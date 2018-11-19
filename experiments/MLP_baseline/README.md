@@ -38,7 +38,7 @@ In this experiment the fixed MLP parameters are:
 While we exahustively search in the  following hyperparameter search space:
 ```python
 params = {
-        'loss': ['binary_crossentropy', 'mean_absolute_error', hingesig],
+        'loss': ['binary_crossentropy', hingesig],
         'activation': ['softmax', 'softplus', 'tanh', 'relu', 'sigmoid']
     }
 ```
